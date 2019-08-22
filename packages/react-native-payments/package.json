@@ -1,24 +1,39 @@
 {
-  "name": "@paciolan/react-native-payments",
-  "version": "0.7.1",
-  "scripts": {
-    "run:packager": "cd examples/native && yarn run:packager",
-    "run:ios": "cd examples/native && yarn run:ios",
-    "run:web": "cd examples/web && yarn run:web",
-    "run:demo": "cd examples/native && yarn run:demo",
-    "test": "jest"
-  },
-  "repository": "https://github.com/paciolan/react-native-payments",
-  "keywords": [
-    "react",
-    "react-native",
-    "apple-pay",
-    "stripe",
-    "braintree",
-    "payments"
+  "_args": [
+    [
+      "@paciolan/react-native-payments@0.7.2",
+      "/Users/tvelev/sc/mobile-sdk/msdk"
+    ]
   ],
-  "author": "Naoufal Kadhom",
-  "license": "MIT",
+  "_from": "@paciolan/react-native-payments@0.7.2",
+  "_id": "@paciolan/react-native-payments@0.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-IvlZ798u0aCbn0kvPXKFhCZNUF9LpKNBG1JH3pjU7pVzDW6TrTK4cHgU6hdo88mwrHjSJdTtAOfkibmpA73auA==",
+  "_location": "/@paciolan/react-native-payments",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@paciolan/react-native-payments@0.7.2",
+    "name": "@paciolan/react-native-payments",
+    "escapedName": "@paciolan%2freact-native-payments",
+    "scope": "@paciolan",
+    "rawSpec": "0.7.2",
+    "saveSpec": null,
+    "fetchSpec": "0.7.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@paciolan/react-native-payments/-/react-native-payments-0.7.2.tgz",
+  "_spec": "0.7.2",
+  "_where": "/Users/tvelev/sc/mobile-sdk/msdk",
+  "author": {
+    "name": "Naoufal Kadhom"
+  },
+  "bugs": {
+    "url": "https://github.com/paciolan/react-native-payments/issues"
+  },
   "dependencies": {
     "es6-error": "^4.0.2",
     "uuid": "^3.1.0",
@@ -31,15 +46,38 @@
     "jest": "20.0.4",
     "react-test-renderer": "16.0.0-alpha.12"
   },
-  "peerDependencies": {
-    "react": ">=15",
-    "react-native": ">=0.41"
-  },
+  "homepage": "https://github.com/paciolan/react-native-payments#readme",
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/examples/",
       "lib/js/__tests__"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "apple-pay",
+    "stripe",
+    "braintree",
+    "payments"
+  ],
+  "license": "MIT",
+  "name": "@paciolan/react-native-payments",
+  "peerDependencies": {
+    "react": ">=15",
+    "react-native": ">=0.41"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paciolan/react-native-payments.git"
+  },
+  "scripts": {
+    "run:demo": "cd examples/native && yarn run:demo",
+    "run:ios": "cd examples/native && yarn run:ios",
+    "run:packager": "cd examples/native && yarn run:packager",
+    "run:web": "cd examples/web && yarn run:web",
+    "test": "jest"
+  },
+  "version": "0.7.2"
 }
