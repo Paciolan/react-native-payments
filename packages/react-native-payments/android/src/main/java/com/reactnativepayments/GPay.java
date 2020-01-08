@@ -338,9 +338,9 @@ public class GPay extends ReactContextBaseJavaModule {
                             try {
                                 Log.i("FEKETE", paymentDataJson.toString());
                                 JSONObject paymentMethodData = paymentDataJson.getJSONObject("paymentMethodData");
-
+                                
                                 String token = paymentMethodData.getJSONObject("tokenizationData").getString("token");
-
+                                String cardInfo = paymentMethodData.getJSONObject("info").;
                                 JSONObject billing = paymentMethodData.getJSONObject("info")
                                         .getJSONObject("billingAddress");
 
@@ -361,6 +361,7 @@ public class GPay extends ReactContextBaseJavaModule {
                                         new JSONObject().put("paymentData", new JSONObject().put("data", token)));
                                 response.put("billing", billing);
                                 response.put("contact", contact);
+ 
 
                                 Log.v("Token : ", token);
                                 Log.v("Response", paymentMethodData.toString());
